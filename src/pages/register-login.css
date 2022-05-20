@@ -1,0 +1,47 @@
+.wrapper {
+	@apply flex h-screen w-screen flex-col lg:flex-row lg:items-center;
+}
+
+.section__left {
+	@apply h-96 w-screen bg-[#0D28A6] lg:h-full lg:w-1/2;
+}
+
+.cover__img {
+	@apply h-full w-full bg-center bg-no-repeat object-cover;
+}
+
+.section__right {
+	@apply w-screen lg:flex lg:h-full lg:w-1/2;
+}
+
+.right__wrapper {
+	@apply mx-auto flex w-9/12 flex-col items-center gap-6 p-6 lg:my-auto;
+}
+
+.right__title {
+	@apply text-center text-3xl font-semibold;
+}
+
+.form__wrapper {
+	@apply flex w-full flex-col text-xs sm:w-2/3 lg:mb-0  lg:w-10/12 lg:items-end xl:text-sm;
+}
+
+.onelabelinput__wrapper {
+	@apply mb-3 flex flex-col sm:mb-0 lg:w-full lg:px-2;
+}
+
+.input--custom {
+	@apply mt-1 h-8 rounded-sm border border-[#D0D0D0] p-2 text-[#8A8A8A] xl:h-10;
+}
+
+.landing__btn {
+	@apply w-full rounded-sm bg-gradient-to-br from-[#0D28A6] via-[#4262F0] to-[#061247] bg-size-200 px-3 py-2 font-bold text-white transition-all duration-500 hover:bg-right-bottom sm:w-2/3;
+}
+
+.google__btn {
+	@apply w-full rounded-sm border-2 px-3 py-2 sm:w-2/3;
+}
+
+.redirect {
+	@apply cursor-pointer text-center text-xs text-[#0D28A6];
+}
